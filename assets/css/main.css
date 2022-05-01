@@ -3868,7 +3868,8 @@ input, select, textarea {
 				left: 0;
 				line-height: 3.5em;
 				overflow: hidden;
-				padding: 0;
+				padding-left: 10px;
+				padding-right: 10px;
 				text-align: center;
 				top: 0;
 				width: 100%;
