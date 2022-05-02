@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Crypto Tracker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">My FP&A Portfolio.</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html#three" class="active">Contact Me</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Crypto Portfolio Tracker</h1>
+							<div class="iframe-container">
+								<iframe title="CrypFolio" width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiNjhhMDQ1YjUtZGQyMi00ODI2LTgwOTQtZDlkM2ExNTU2NWVjIiwidCI6ImVmNGVkNTg4LTdiNTctNDYzOS1iMmEwLWQ5NGYyMDYxZWJmZiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+							</div>
+							<p><strong>Crypto Portfolio Profit/Loss</strong> </p>
+							<p>This dashboard combines API Keys from cryptocurrency exchanges, and uses them to track Profit and Loss against an initial coin investment.<br />
+							<strong>Why did i make this? </strong><br />
+							1. To learn how to use API keys to access and interact with live timeseries data like stock prices and crypto prices.<br />
+							2. I have an Excel version of this portfolio, and i wanted to migrate it to PowerBI so i can view it online.<br /><br />
+							<strong>How did i make this? - The Basic Setup</strong><br />
+							1. Use Coingecko API to get coin current price, and Cryptowatch API to get a live timeseries of crypto prices for the cryptochart<br />
+							2. Load the APIs into Power Query and Transform then data into format needed.<br />
+							3. Load a flat file that contains initial coin investments. This is the only manual part that needs to be updated each time you make a new transaction<br />
+							4. Create a connection in between flat file and crypto price tables.<br />
+							5. Create visuals.<br />
+							6. Upload final report to PowerBI Service and set up automated refresh schedule (every 24 hours)<br /><br />
+
+							There is a lot of custom M code that makes this report dynamic and automated in addition to the "Basic Setup". An example is an "invoked custom function". I will release a webinar tutorial on this topic in the future.
+						
+							</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Mohammed Hussain 2022. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
