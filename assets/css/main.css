@@ -1890,7 +1890,7 @@ input, select, textarea {
 		input[type="button"].fit,
 		button.fit,
 		.button.fit {
-			width: 352px;
+			width: 100%;
 		}
 
 		input[type="submit"].small,
@@ -3549,7 +3549,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 18em;
+		width: 100%;
 		z-index: 10000;
 	}
 
