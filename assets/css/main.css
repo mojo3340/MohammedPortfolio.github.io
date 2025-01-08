@@ -3549,7 +3549,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 100%;
+		width: 18em;
 		z-index: 10000;
 	}
 
@@ -3878,7 +3878,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 768px) {
 
 			#sidebar {
 				height: 3.5em;
