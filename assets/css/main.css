@@ -1874,7 +1874,7 @@ input, select, textarea {
 			opacity: 0;
 			position: absolute;
 			top: 0;
-			width: 352px;
+			width: 100%;
 		}
 
 		input[type="submit"].icon:before,
@@ -1890,7 +1890,7 @@ input, select, textarea {
 		input[type="button"].fit,
 		button.fit,
 		.button.fit {
-			width: 100%;
+			width: 352px;
 		}
 
 		input[type="submit"].small,
